@@ -1,20 +1,30 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: aquamarine;
 }
 
 main {
     display: flex;
     flex-direction: row;
     flex: auto;
+    font-style: italic;
 }
 
 article {
     flex: 2;
     overflow-y: auto;
+    padding: 0cqh;
 }
 
 aside {
     flex: 1;
     overflow-y: auto;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-right: 1rem;
 }
