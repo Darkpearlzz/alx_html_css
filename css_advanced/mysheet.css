@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(images/Object.png);
+}
+
+.logoset{
+    padding-left: 140px;
+    padding-top: 35.02px;
+    width: 167.02px;
+    height: 29.46px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    float: right;
+    gap: 30px;
+    padding-right: 80px;
+    padding-top: 37px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    font-weight: 700px;
+    font-family: 
+}
+
+h1{
+    text-align: center;
+}
